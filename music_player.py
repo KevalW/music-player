@@ -1,12 +1,11 @@
-# Visit pyGuru on youtube
-# pip install pygame
-
+# Libraries
 import os
 import pickle
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import PhotoImage
 from pygame import mixer
+
 
 class Player(tk.Frame):
 	def __init__(self, master=None):
@@ -175,8 +174,8 @@ class Player(tk.Frame):
 # ----------------------------- Main -------------------------------------------
 
 root = tk.Tk()
-root.geometry('600x400')
-root.wm_title('Musicxy')
+root.geometry('700x500')
+root.wm_title('Music Player')
 
 img = PhotoImage(file='images/music.gif')
 next_ = PhotoImage(file = 'images/next.gif')
