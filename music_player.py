@@ -6,7 +6,7 @@ from tkinter import filedialog
 from tkinter import PhotoImage
 from pygame import mixer
 
-
+#Actual code
 class Player(tk.Frame):
 	def __init__(self, master=None):
 		super().__init__(master)
@@ -174,7 +174,7 @@ class Player(tk.Frame):
 # ----------------------------- Main -------------------------------------------
 
 root = tk.Tk()
-root.geometry('700x500')
+root.geometry('600x400')
 root.wm_title('Music Player')
 
 img = PhotoImage(file='images/music.gif')
